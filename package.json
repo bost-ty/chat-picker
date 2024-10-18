@@ -1,0 +1,20 @@
+{
+	"name": "chat-picker",
+	"version": "1.0.0",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "bost-ty",
+	"license": "MIT",
+	"description": "",
+	"devDependencies": {
+		"@types/ws": "^8.5.12",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"tiktok-live-connector": "^1.2.0",
+		"ws": "^8.18.0"
+	}
+}

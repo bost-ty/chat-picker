@@ -9,7 +9,7 @@ const options = {
 	fetchRoomInfoOnConnect: false,
 };
 
-const ttl = new WebcastPushConnection(targetUsername);
+const ttl = new WebcastPushConnection(targetUsername, options);
 
 const connect = false;
 
